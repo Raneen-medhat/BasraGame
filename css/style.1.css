@@ -1,0 +1,45 @@
+/* ===== font Style =============*/
+@font-face {
+	font-family: 'Conv_Exo-Regular';
+	src: url('../fonts/Exo-Regular.eot');
+	src: local('☺'), url('../fonts/Exo-Regular.woff') format('woff'), url('../fonts/Exo-Regular.ttf') format('truetype'), url('fonts/Exo-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{font-family: 'Conv_Exo-Regular';margin: 0 auto;overflow: hidden ;background:linear-gradient(0deg, rgba(158, 158, 158, 0.28),  
+rgba(0, 0, 0, 0.51)),url(../images/patern.jpg) ;background-size: cover;height: 100vh;}
+main{display: none}
+/***************************************************************/
+header {display: grid; grid-template-columns: 1fr 1fr 1fr; margin: 0 auto;grid-gap: 20px}
+.player-img , .comp-img{ width: 60px;height: 60px;background: #fff;border-radius: 50%;}
+.info{display: grid;grid-template-columns:1fr 1fr 1fr;background: #050505;box-shadow: 0px 0px 17px #9d7939;
+padding: 20px;border-bottom-right-radius:30px;height: 50px;color: #fff;}
+.computer_Score{border-bottom-left-radius: 30px;border-bottom-right-radius: 0px;}
+button {width: 100%;height: 91px;border: none;cursor: pointer;background:  #df4f4d;    font-size: 30px;
+color: #fff;text-shadow: 1px 4px 5px #000;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;}
+button:focus{outline: none}
+button:hover{background: #d84b49}
+.grid{display: grid; grid-template-rows:1fr 1fr 1fr;height: 83vh;margin-top: 25px; }
+#computer-area{display: grid; grid-template-columns:1fr 1fr 1fr}
+#player-area{display: grid; grid-template-columns:1fr 1fr 1fr}
+#table-area{display: grid; grid-template-columns:1fr;text-align: center;}
+img {width: 90px;border: 1px solid #ddd;margin: 5px;padding: 5px;}
+#computer-area button{height:50%;}
+.comp-img{background: url(../images/comp.png);background-size: contain;background-repeat: no-repeat;text-align: center;border: 1px solid #fff;position: relative;bottom: 5px;left: 35px;}
+.player_Score img{    width: 55px;height: 55px;border-radius: 50%;position: relative;bottom: 9px;right: 9px;}
+.computer_Score h2 {font-size: 18px;margin-left: 15px;}
+.player_Score h2{margin-left: -29px;margin-top: 22px;font-size: 18px;}
+.player_Score p{margin-top: 24px}
+.landing {background: #deba70;padding: 10px;color: #ffffff;text-align: center;width: 31%;margin: auto;border-radius: 30%;position: relative;top: 25px;}
+.landing h1{    text-align: center;font-size: 30px;margin-top: 10px;}
+.new-game{  background: url(../images/n.png) no-repeat;height: 500px; margin: 0 auto;width: 100%;background-size: contain;text-align: center;background-position: center;position: relative;top: 75px;} 
+.new-game input{position: relative;top: 90px;width: 18%;padding: 10px;border: none;border-radius: 5px;}
+.new-game h2{position: relative;top: 40px;margin: 0;}
+.avatars{position: relative;top: 150px;}
+.avatars h2{top: -21px;font-size: 20px;border: 1px solid #fff; width: 18%;margin: auto;padding: 10px;}
+.avatars img:hover{width: 101px;cursor: pointer;}
+.start-play{    background: #c71c16;width: 18%;position: relative;top: 173px;height: 44px;border-radius: 5px;}
+#player-area img:hover{    width: 93px;box-shadow: 0px 0px 10px #df4f4d;cursor: pointer;}
+.celeberate img {width: 50%;border: none;margin: 0 auto;text-align: center;display: inherit;}
+.celeberate{display: none;width: 100%; margin: 0 auto;    text-align: center;}
+.celeberate h2 {position: absolute;top: 109px;margin: 0 auto;width: 100%;color: #c71c16}

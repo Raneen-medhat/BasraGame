@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basra Game</title>
+    <link rel="stylesheet" href="css/style.1.css">
+</head>
+<body>
+    <div class="animation">
+        <div class="landing">
+            <h1>Basra Game</h1>
+        </div> 
+        <div class="new-game">
+            <h2>Start New game</h2>
+            <input type="text" placeholder="Enter your name">
+            <div class="avatars">
+                <h2>Choose your avatar</h2>
+                <img src="images/1.png" alt="">
+                <img src="images/2.png" alt="">
+            </div>
+            <button class="start-play">Start</button>
+        </div>
+    </div>
+    <main> 
+    <header>
+        <div class="player_Score info">
+            <div class="player-img">
+                <img src="images/avatar.png" alt="">
+            </div>
+            <h2>anonymous</h2>
+            <p>Score: is <span>0</span></p>
+        </div>
+        <div class="newGame">
+            <button id="Start">Start Game</button>
+         </div>
+        <div class="computer_Score info">        
+            <p>Score:  is <span>0</span></p>
+            <h2>Computer</h2>
+            <div class="comp-img"></div>
+        </div>     
+    </div>
+  </header>  
+<div class="celeberate">
+    <img src="images/source.gif" alt="">
+</div>
+<div class="grid">
+<section  id="computer-area"> 
+    <div class="turn">
+    </div>     
+    <div id ="computer">
+    </div> 
+    <div class="empty">
+    </div>     
+</section>  
+<section  id="table-area"> 
+ <div id ="table">
+   </div> 
+</section>
+<section  id="player-area"> 
+<div class="empty">
+    <div id="deck"></div>
+</div> 
+<div id ="player">
+    </div>
+</section>
+<div class="empty"></div>
+</div>
+</div>
+</main>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/animation.js"></script>    
+<script src="js/final.js"></script>    
+</body>
+</html>
